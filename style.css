@@ -1,4 +1,42 @@
-.main {
+body {
+    margin: 0;
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #1F2937;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 220px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+.rectzero {
+    background-color: #1F2937;
+}
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

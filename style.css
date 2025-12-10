@@ -67,6 +67,48 @@ h1 {
     white-space: nowrap;
 }
 
+.rectone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.illheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.illustrations {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 900px;
+    gap: 60px;
+}
+
+.ill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6e778a;
+    width: 150px;
+}
+
+.blank {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    font-size: 18px;
+    border-radius: 15px;
+}
+
 .footer {
     background-color: #1F2937;
     font-size: 18px;

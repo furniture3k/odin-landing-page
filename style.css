@@ -109,6 +109,32 @@ h1 {
     border-radius: 15px;
 }
 
+.recttwo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 0 365px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    margin-top: 120px;
+}
+
+.quoted {
+    padding-right: 40px;
+    margin: 0;
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 120px;
+}
+
 .footer {
     background-color: #1F2937;
     font-size: 18px;

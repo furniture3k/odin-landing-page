@@ -135,6 +135,19 @@ h1 {
     margin-bottom: 120px;
 }
 
+.rectthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
+
 .footer {
     background-color: #1F2937;
     font-size: 18px;
